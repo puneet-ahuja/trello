@@ -1,0 +1,33 @@
+.overlay{
+    position: fixed;
+    height: 100%;
+    width:100%;
+    top: 0;
+    left:0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.add-task-form {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.modal-header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px dotted #a5a5a5;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}

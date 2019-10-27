@@ -1,0 +1,33 @@
+.board-menu {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.board-item{
+    position: relative;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.board-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 10px;
+    height: 40px;
+    border-right: 1px solid white;
+}
+
+.label{
+    background-color: #2980B9;
+    border-radius: 8px;
+    height: 16px;
+    line-height: 16px;
+    padding: 3px 6px;
+    margin-left: 5px;
+}

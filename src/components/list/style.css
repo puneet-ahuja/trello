@@ -1,0 +1,22 @@
+.list {
+    width: 30%;
+    background-color: #a7a7a7;
+    border-radius: 3px;
+}
+
+.list-header{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.list-title{
+    font-weight: 500;
+}
+
+.add-card{
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    color: gray
+}
